@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Traits\ApiResponser;
+use App\Traits\ApiResponserTrait;
 
 class ApiController extends Controller 
 {
-    use ApiResponser;
+    use ApiResponserTrait;
 }
